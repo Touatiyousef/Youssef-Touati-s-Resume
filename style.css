@@ -50,14 +50,15 @@ header img {
 }
 
 h1 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin: 1em 0;
 
   font-weight: bold;
 }
 
 h3 {
-  text-transform: uppercase;
+    text-transform: uppercase;
+    color: rebeccapurple;
 }
 
 h3, h4 {
@@ -73,7 +74,7 @@ main section:not(:last-child) {
 }
 
 .fab {
-  border: 1px solid white;
+  border: 3px solid white;
   border-radius: 50%;
   font-size: 1.5em;
   width: 1.5em;
@@ -129,6 +130,7 @@ a .fab {
 
 .school, .job-title {
   text-transform: capitalize;
+  color: darkblue;
 }
 
 .school span, .job-title span {
